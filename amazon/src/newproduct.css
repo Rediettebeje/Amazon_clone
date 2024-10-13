@@ -1,0 +1,36 @@
+.newproduct {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    /* Adjust the max width as needed */
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.top-section,
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.one {
+    width: calc(90% - 0px);
+    /* Adjust the width as needed */
+    max-height: 800px;
+    /* Adjust the max height as needed */
+    object-fit: cover;
+    /* Preserve aspect ratio and cover the container */
+    margin: 5px;
+}
+
+.seeall {
+    margin-top: 10px;
+    text-decoration: none;
+   
+    /* You can adjust the color as needed */
+}
